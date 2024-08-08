@@ -1,0 +1,17 @@
+{
+  "name": "blog-preview-card",
+  "version": "1.0.0",
+  "description": "simple blog preview card component as FEM challenge",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "tailwind:watch": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch",
+    "tailwind:build": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.9"
+  }
+}
