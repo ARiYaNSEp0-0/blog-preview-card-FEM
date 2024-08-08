@@ -17,5 +17,58 @@
     <title>Blog preview card</title>
     <link rel="stylesheet" href="./src/css/output.css" />
   </head>
-  <body></body>
+  <body class="text-base font-medium text-gray-950">
+    <!-- Background Container -->
+    <main class="bg-yellow px-300 grid min-h-screen place-content-center">
+      <!-- Blog Preview Card -->
+      <article
+        class="shadow-outer p-300 space-y-300 max-w-sm rounded-2xl border border-gray-950 bg-white"
+      >
+        <picture>
+          <img
+            class="rounded-lg"
+            src="./src/assets/images/illustration-article.svg"
+            alt="A bold yellow and black logo with an eye-catching black and white design, combining vibrant colors and artistic elements."
+          />
+        </picture>
+        <div class="space-y-150">
+          <div class="flex flex-wrap gap-2 text-sm font-extrabold">
+            <a class="px-150 py-50 bg-yellow" href="#">Learning</a>
+          </div>
+          <p class="text-sm">
+            Published <time datetime="2023-12-21">21 Dec 2023</time>
+          </p>
+          <h1 class="text-lg">
+            <strong
+              ><a
+                href="#"
+                class="hover:text-yellow focus:text-yellow duration-100"
+                >HTML & CSS foundations</a
+              ></strong
+            >
+          </h1>
+          <p class="text-gray-500">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
+        </div>
+        <div class="space-x-150 flex items-center">
+          <picture>
+            <img
+              class="h-8 w-8 rounded-full"
+              src="./src/assets/images/image-avatar.webp"
+              alt=" A man wearing a blue shirt looks up, his face reflecting wonder as he gazes at something above him."
+            />
+          </picture>
+          <address class="font-extrabold not-italic">
+            <a href="#" class="hover:text-yellow focus:text-yellow duration-100"
+              >Greg Hooper</a
+            >
+          </address>
+        </div>
+      </article>
+      <!-- Blog Preview Card -->
+    </main>
+    <!-- Background Container -->
+  </body>
 </html>
