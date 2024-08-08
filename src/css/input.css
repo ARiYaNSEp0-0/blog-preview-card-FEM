@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Figtree";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("../assets/fonts/Figtree-Medium.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Figtree";
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url("../assets/fonts/Figtree-ExtraBold.ttf") format("truetype");
+  }
+}
